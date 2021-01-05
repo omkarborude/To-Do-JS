@@ -15,5 +15,6 @@ function addlist(event) {
 
     if(getin.value !== '') {
         newli.innerText = getin.value;
+        
     }
 }
