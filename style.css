@@ -82,10 +82,8 @@ ol li{
     counter-increment: my-counter;
 	text-align: left;
 	border-radius: 10px;
-	background-color: #89d4cf;
-background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
-
-
+	background-color: #f9ff60;
+background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
 }
 ol.completeTaskList li{
     background: #00ff62;
