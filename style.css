@@ -58,6 +58,7 @@ ol.completeTaskList li{
     background: #00ff62;
     
 }
+
 ol li::before{
 	content: counter(my-counter);
 	background: #231381;
