@@ -36,11 +36,23 @@ background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 	border-bottom: 2px solid black ;
 }
 #BTN{
-	height: 60px;
-	margin-left: 20px;
-	border-radius: 10px;
+	border: 1px solid black;
+	border-radius: 8px;
 	width: 100px;
-	border: none;
+	height: 55px;
+	margin-left: 20px;
+	background: linear-gradient(to right, black 50%, white 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
+	font-size: 16px;
+	font-weight: 600;
+}
+#BTN:hover {
+	cursor: pointer;
+	background-position: left bottom;
+	color: white;
+
 }
 
 .uncompletedTaskList{
@@ -63,9 +75,9 @@ ol{
 	counter-reset: my-counter;
 }
 ol li{
-	width: 92%;
+	width: 80%;
 	padding: 18px;
-	margin: 5px 0;
+	margin: auto;
 	background: #e96969bb;
 	font-size: 22px;
     counter-increment: my-counter;
